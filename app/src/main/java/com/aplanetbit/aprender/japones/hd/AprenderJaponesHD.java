@@ -27,11 +27,6 @@ import com.facebook.ads.AdSize;
 import com.facebook.ads.AdView;
 import com.facebook.ads.*;
 
-import com.flurry.android.FlurryAgent;
-import com.revmob.RevMob;
-import com.revmob.RevMobAdsListener;
-import com.revmob.ads.fullscreen.RevMobFullscreen;
-
 import java.util.Locale;
 
 import static android.content.Intent.ACTION_VIEW;
@@ -43,31 +38,6 @@ public class AprenderJaponesHD extends Activity implements OnInitListener {
     private TextToSpeech mTts;
     private ShareActionProvider mShareActionProvider;
 
-    private RevMob revmob;
-
-    private RevMobFullscreen fullscreen;
-    private boolean adIsLoaded = false;
-
-    RevMobAdsListener revmobListener = new RevMobAdsListener() {
-
-        // Required
-        @Override
-        public void onRevMobSessionIsStarted() {
-            loadFullscreen();// pre-load it without showing it
-        }
-
-        public void onRevMobAdReceived() {
-            adIsLoaded = true; // Now you can show your fullscreen whenever you want
-        }
-    };
-
-    public void loadFullscreen() {
-        fullscreen = revmob.createFullscreen(this, revmobListener);
-    }
-
-    public void showRevmobAd() {
-        if(adIsLoaded) fullscreen.show(); // call it wherever you want to show the fullscreen ad
-    }
 
     //Definici�n del men� en menu.xml
     @Override
@@ -105,7 +75,6 @@ public class AprenderJaponesHD extends Activity implements OnInitListener {
                 startActivity(new Intent(ACTION_VIEW, Uri.parse("https://play.google.com/store/apps/details?id="+getString(R.string.paquete)) ) );
                 return true;
             case R.id.Salir:
-                FlurryAgent.onEndSession(this);
                 this.finish();
                 return true;
             case R.id.Acerca:
@@ -226,10 +195,6 @@ public class AprenderJaponesHD extends Activity implements OnInitListener {
         Intent checkIntent = new Intent();
         checkIntent.setAction(TextToSpeech.Engine.ACTION_CHECK_TTS_DATA);
         startActivityForResult(checkIntent, MY_DATA_CHECK_CODE);
-
-//Id de Flurry	
-        FlurryAgent.onStartSession(this, getString(R.string.flurry));
-
 
 //Lo que hace el bot�n "Hola"
         holaPlayerBtn.setOnClickListener(new OnClickListener(){

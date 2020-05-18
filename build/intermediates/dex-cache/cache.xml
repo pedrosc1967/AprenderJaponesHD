@@ -9,25 +9,11 @@
         <dex dex="/Users/pedrosantangelocalvo/StudioProjects/AprenderJaponesHD/app/build/intermediates/pre-dexed/release/classes-43099af6e91de789f3f0e9e60b33e66ceb8bb439.jar" />
     </item>
     <item
-        jar="/Users/pedrosantangelocalvo/StudioProjects/AprenderJaponesHD/app/libs/FlurryAnalytics_3.3.2.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="5fb31df526a21837fb7b59f224fccbc5fbbf6273">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/AprenderJaponesHD/app/build/intermediates/pre-dexed/release/FlurryAnalytics_3.3.2-edce1594165c7247dd79299da7dfe9b9210e87b4.jar" />
-    </item>
-    <item
         jar="/Users/pedrosantangelocalvo/StudioProjects/AprenderJaponesHD/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/jars/classes.jar"
         jumboMode="false"
         revision="22.0.0"
         sha1="95fd37732ec852e99f07eeb516a3650172f1d136">
         <dex dex="/Users/pedrosantangelocalvo/StudioProjects/AprenderJaponesHD/app/build/intermediates/pre-dexed/release/classes-3380f3b9f477c3443f521f47fd0b43417b4de497.jar" />
-    </item>
-    <item
-        jar="/Users/pedrosantangelocalvo/StudioProjects/AprenderJaponesHD/app/libs/revmob.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="eef1af34ff8ccb74ca48485b26f349706111d276">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/AprenderJaponesHD/app/build/intermediates/pre-dexed/release/revmob-168e84309155ac4a513654b15fcd74f673b741c3.jar" />
     </item>
     <item
         jar="/Users/pedrosantangelocalvo/Documents/Desarrollo/sdk/extras/android/m2repository/com/android/support/support-annotations/22.0.0/support-annotations-22.0.0.jar"
@@ -63,13 +49,6 @@
         revision="22.0.0"
         sha1="a78183f30e769a98ab4820794f597763088d3065">
         <dex dex="/Users/pedrosantangelocalvo/StudioProjects/AprenderJaponesHD/app/build/intermediates/pre-dexed/release/classes-38963dfc111b76e103a02c7cf0b1090b09881ae4.jar" />
-    </item>
-    <item
-        jar="/Users/pedrosantangelocalvo/StudioProjects/AprenderJaponesHD/app/libs/presage-lib-1.6.0.jar"
-        jumboMode="false"
-        revision="22.0.0"
-        sha1="530dc4ed5821c0cdb6af0ca173f6918f5bb20346">
-        <dex dex="/Users/pedrosantangelocalvo/StudioProjects/AprenderJaponesHD/app/build/intermediates/pre-dexed/release/presage-lib-1.6.0-8b66347ccd7f907ea03c321d89a7a681681d1be0.jar" />
     </item>
     <item
         jar="/Users/pedrosantangelocalvo/StudioProjects/AprenderJaponesHD/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.5.0/jars/classes.jar"

@@ -161,13 +161,10 @@
     <string name="action_share" translatable="false">Share</string>
     <string name="banner_ad_unit_id" translatable="false">ca-app-pub-8829538089345362/2894826511</string>
     <string name="OguryStr" translatable="false">266854</string>
-    <string name="flurry" translatable="false">VDJYQX9N56XDFN6XH4G6</string>
     <string name="paquete" translatable="false">com.aplanetbit.aprender.japones</string>
     <string name="analyticsstr" translatable="false">UA-56811260-32</string>
     <string name="LeadboltStr" translatable="false">SksXCxR6FVlKl71i5mrlwMmm6HvePLSS</string>
-    <string name="revmobstr" translatable="false">55c67d8c9c64079348f0523d</string>
     <string name="LeadBoltCTRL" translatable="false">true</string>
-    <string name="revmobCTRL" translatable="false">false</string>
 </resources>
 
 
